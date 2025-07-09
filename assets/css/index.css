@@ -4,17 +4,17 @@ body {
 }
 
 .navbar {
-  position: relative;
   display: flex;
   align-items: center;
+  justify-content: space-between;
   background-color: #333;
   padding: 10px 20px;
+  position: relative;
   height: 60px;
 }
 
 .logo {
   height: 40px;
-  z-index: 1;
 }
 
 .name {
@@ -22,14 +22,21 @@ body {
   left: 50%;
   transform: translateX(-50%);
   color: white;
-  font-family: 'Cursive';
+  font-family: 'Cursive', sans-serif;
   font-size: 24px;
   white-space: nowrap;
 }
 
+.hamburger {
+  display: none;
+  font-size: 28px;
+  color: white;
+  cursor: pointer;
+  z-index: 2;
+}
+
 .menu {
   margin-left: auto;
-  z-index: 1;
 }
 
 .menu ul {
@@ -54,4 +61,34 @@ body {
 .menu ul li a:hover {
   background-color: #555;
   border-radius: 4px;
+}
+
+/* MOBILE STYLES */
+@media (max-width: 768px) {
+  .hamburger {
+    display: block;
+  }
+
+  .menu {
+    position: absolute;
+    top: 60px;
+    right: 0;
+    background-color: #333;
+    width: 100%;
+    display: none;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .menu.active {
+    display: flex;
+  }
+
+  .menu ul {
+    flex-direction: column;
+  }
+
+  .menu ul li {
+    margin: 10px 0;
+  }
 }
