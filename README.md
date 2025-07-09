@@ -1,6 +1,6 @@
 # 👋 Hi, I'm Harsha
 
-I'm a passionate **Software Developer** with over **15 years of experience** building scalable, cloud-based enterprise applications. I specialize in **.NET**, **REST APIs**, and **cloud computing (Azure & AWS)**. I enjoy solving real-world problems with clean and maintainable code.
+I'm a passionate **Software Developer** with over **2 years of experience** building scalable, cloud-based enterprise applications. I specialize in **.NET**, **REST APIs**, and **cloud computing (Azure & AWS)**. I enjoy solving real-world problems with clean and maintainable code.
 
 ---
 
