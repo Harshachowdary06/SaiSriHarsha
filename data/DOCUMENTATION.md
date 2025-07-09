@@ -6,6 +6,8 @@ This portfolio site is organized for clarity, scalability, and ease of maintenan
 
 ## 📂 File Tree Overview
 
+
+```bash
 my-portfolio/
 ├── index.html # Home page
 ├── about.html # About me
