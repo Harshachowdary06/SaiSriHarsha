@@ -1,0 +1,57 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.navbar {
+  position: relative;
+  display: flex;
+  align-items: center;
+  background-color: #333;
+  padding: 10px 20px;
+  height: 60px;
+}
+
+.logo {
+  height: 40px;
+  z-index: 1;
+}
+
+.name {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  color: white;
+  font-family: 'Cursive';
+  font-size: 24px;
+  white-space: nowrap;
+}
+
+.menu {
+  margin-left: auto;
+  z-index: 1;
+}
+
+.menu ul {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.menu ul li {
+  margin-left: 20px;
+}
+
+.menu ul li a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  padding: 8px 12px;
+  transition: background-color 0.3s;
+}
+
+.menu ul li a:hover {
+  background-color: #555;
+  border-radius: 4px;
+}
