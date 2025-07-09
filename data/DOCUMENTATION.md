@@ -28,6 +28,8 @@ my-portfolio/
 ├── LICENSE # Open-source license
 └── favicon.ico # Website icon
 
+```bash
+
 ---
 
 ## 📝 Description
